@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Geometri_Arv
 {
-    public class Parallelogram : Shape
+    class Parallelogram : Shape
     {
         #region Properties
         private double angel;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Geometri_Arv
 {
-    public class Trapez : Shape
+    class Trapez : Shape
     {
         #region Properties
         private double sideC;

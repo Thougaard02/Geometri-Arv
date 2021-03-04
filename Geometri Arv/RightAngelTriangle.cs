@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Geometri_Arv
 {
-    public class RightAngelTriangle : Shape
+    class RightAngelTriangle : Shape
     {
         #region Propterties
         private double sideC;
@@ -39,6 +39,5 @@ namespace Geometri_Arv
             return 0.5 * (SideA * SideB);
         }
         #endregion
-
     }
 }

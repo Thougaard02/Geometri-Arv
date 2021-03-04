@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Geometri_Arv
 {
-    public class Square : Shape
+    class Square : Shape
     {
         #region Constructor
 
