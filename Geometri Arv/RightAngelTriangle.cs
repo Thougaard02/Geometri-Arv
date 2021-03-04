@@ -19,29 +19,18 @@ namespace Geometri_Arv
         #endregion
 
         #region Constructor
-        //CalculateArea
         public RightAngelTriangle(double _sideA, double _sideB) : base(_sideA, _sideB)
         {
-            SideB = _sideB;
-        }
-        //CalculatePerimeter
-        public RightAngelTriangle(double _sideA, double _sideB, double _sideC) : base(_sideA, _sideB)
-        {
-            SideC = _sideC;
+            //Calculate hypotenuse
+            SideC = Math.Sqrt(Math.Pow(SideA, 2) + Math.Pow(SideB, 2));
         }
         #endregion
 
         #region Methods
-
-        public double GetHypotenuse()
-        {
-            return Math.Sqrt((SideA * SideA) + (SideB * SideB));
-        }
-
         public override double CalculatePerimeter()
         {
             //Formula for perimeter of right angel triangel: O = a + b + c
-            return SideA + SideB + sideC;
+            return SideA + SideB + SideC;
         }
 
         public override double CalculateArea()

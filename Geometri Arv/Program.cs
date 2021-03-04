@@ -37,14 +37,13 @@ namespace Geometri_Arv
             #endregion
 
             #region Right angel triangle
-            RightAngelTriangle rightAngelTrianglePerimeter = new RightAngelTriangle(3, 4, 5);
-            RightAngelTriangle rightAngelTriangleArea = new RightAngelTriangle(3, 4);
+            RightAngelTriangle rightAngelTriangle = new RightAngelTriangle(3, 4);
 
             //Printing right angel triangle
             Console.WriteLine("\nPerimeter of right angel triangle");
-            Console.WriteLine(rightAngelTrianglePerimeter.CalculatePerimeter());
+            Console.WriteLine(rightAngelTriangle.CalculatePerimeter());
             Console.WriteLine("\nArea of right angel triangle");
-            Console.WriteLine(rightAngelTriangleArea.CalculateArea());
+            Console.WriteLine(rightAngelTriangle.CalculateArea());
             #endregion
         }
     }
