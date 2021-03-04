@@ -51,6 +51,11 @@ namespace Geometri_Arv
             //Formula for area: A = 0.5 * (a + c) * h
             return 0.5 * (SideA + SideC) * GetHeight();
         }
+        public override double CalculatePerimeter()
+        {
+            //Formula for perimeter: O = a + b + c + d
+            return SideA + SideB + sideC + sideD;
+        }
         #endregion
     }
 }

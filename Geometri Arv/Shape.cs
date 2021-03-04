@@ -43,17 +43,9 @@ namespace Geometri_Arv
         #endregion
 
         #region Method
-        public virtual double CalculatePerimeter()
-        {
-            //Formula for perimeter: O = 4 *a
-            return (4 * SideA);
-        }
+        public abstract double CalculatePerimeter();
 
-        public virtual double CalculateArea()
-        {
-            //Formula for Area: A = a * a
-            return (SideA * SideA);
-        }
+        public abstract double CalculateArea();
         #endregion
     }
 }

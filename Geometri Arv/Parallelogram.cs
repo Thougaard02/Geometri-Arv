@@ -32,6 +32,12 @@ namespace Geometri_Arv
             //Fomula for area of parallelogram 𝐴 = 𝑎 × 𝑏 × 𝑠in(𝜃)
             return SideA * SideB * Math.Sin(angel * Math.PI / 180);
         }
+
+        //If you want to calculate perimeter add formula to the methods
+        public override double CalculatePerimeter()
+        {
+            return SideB;
+        }
         #endregion
     }
 }

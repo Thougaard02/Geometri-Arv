@@ -19,6 +19,17 @@ namespace Geometri_Arv
             Console.WriteLine("\nArea of sqaure");
             Console.WriteLine(square.CalculateArea());
             #endregion
+            #region Rectangel
+
+            Rectangel rectangel = new Rectangel(6, 7);
+
+            //Printing square
+            Console.WriteLine("\nPerimeter of Rectangel");
+            Console.WriteLine(rectangel.CalculatePerimeter());
+            Console.WriteLine("\nArea of Rectangel");
+            Console.WriteLine(rectangel.CalculateArea());
+
+            #endregion
 
             #region Paralleogram
             Parallelogram parallelogram = new Parallelogram(3, 5, 20);
@@ -34,6 +45,8 @@ namespace Geometri_Arv
             //Printing trapez
             Console.WriteLine("\nArea of trapez");
             Console.WriteLine(trapez.CalculateArea());
+            Console.WriteLine("\nPerimeter of trapez");
+            Console.WriteLine(trapez.CalculatePerimeter());
             #endregion
 
             #region Right angel triangle
