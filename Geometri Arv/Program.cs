@@ -19,6 +19,7 @@ namespace Geometri_Arv
             Console.WriteLine("\nArea of sqaure");
             Console.WriteLine(square.CalculateArea());
             #endregion
+
             #region Rectangel
 
             Rectangel rectangel = new Rectangel(6, 7);
@@ -28,7 +29,6 @@ namespace Geometri_Arv
             Console.WriteLine(rectangel.CalculatePerimeter());
             Console.WriteLine("\nArea of Rectangel");
             Console.WriteLine(rectangel.CalculateArea());
-
             #endregion
 
             #region Paralleogram
