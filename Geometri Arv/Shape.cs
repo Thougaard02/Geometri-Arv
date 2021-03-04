@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Geometri_Arv
 {
-    public class Shape
+    public abstract class Shape
     {
         #region Properties
 
